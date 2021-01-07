@@ -1,0 +1,66 @@
+#home p,
+#home li {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#home > div > p {
+    margin: 20px 20px 0;
+}
+
+#home > div > div {
+    margin: 0 20px;
+}
+
+#home > div > div p {
+    margin: 5px 0 10px;
+}
+
+#home > div > div > div:last-of-type {
+    margin-bottom: 20px;
+}
+
+#home > div > a {
+    margin-left: 20px;
+
+    font-size: 1.2rem;
+    color: #3461BA;
+
+    cursor: pointer;
+}
+
+#home .skils {
+    display: flex;
+}
+
+#home .skils div {
+    width: 100%;
+    margin: 0;
+}
+
+#home .skils div:first-of-type {
+    margin-right: 0;
+}
+
+#home .skils div:first-of-type ul {
+    border-right: 1px solid #ccc;
+}
+
+#home .skils div:last-of-type {
+    margin-left: 0;
+}
+
+#home .skils div ul {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+#home .skils div ul li:not(:last-of-type) {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+    #home .skils {
+        flex-direction: column;
+    }
+}

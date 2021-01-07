@@ -1,0 +1,54 @@
+#projects h1 {
+    border: 0;
+    text-align: center;
+}
+
+#projects h2 {
+    padding: 0;
+}
+
+#projects p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#projects > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 0 20px;
+}
+
+#projects > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+}
+
+#projects > div > div:hover {
+    background-color: #F5F5F5
+}
+
+#projects > div > div > * {
+    margin: 5px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #projects > div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #projects > div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "name": "Eduardo A. Carvalho",
+    "avatar": "https://avatars2.githubusercontent.com/u/55118089?v=4",
+    "birthday": "2002-11-07",
+    "location": "São Paulo - SP",
+    "email": "eduardom0142@gmail.com",
+    "primaryPhone": "(11) 9 8079-3780",
+    "primaryPhoneOperator": "OI",
+    "secundaryPhone": "(11) 9 4960-4357",
+    "secundaryPhoneOperator": "TIM",
+    "whatsapp": "(11) 9 4960-4357",
+    "userGithub": "Eduardo0725",
+    "urlGithub": "https://github.com/Eduardo0725",
+    "urlLinkedin": "https://www.linkedin.com/in/eduardo-andrade-carvalho",
+    "aboutMe": "Olá, tudo bem? Meu nome é Eduardo, sou Desenvolvedor Full Stack PHP. Gosto muito de aprender e trabalhar com criação e desenvolvimento de sites e sistemas.\n\n Aos 11 ou 12 anos gostava de mexer com Visual Basic do Excel, mas nunca pensei em trabalhar na programação, até que a mais de um ano atrás comecei um curso de Desenvolvimento de Sistemas e foi ai que descobrir como é grande, fascinante e desafiador o mundo da programação, e é com isso que quero passar a minha vida trabalhando, sempre aprendendo, reaprendendo, encarando novos desafios e me renovando.",
+    "objective": "Atuar como Desenvolvedor Full Stack/Back-End PHP. Cursar Engenharia da Computação em 2021 e a procura de emprego para que possa ajudar nas mensalidades.",
+    "softSkills": [
+        "Disposto a aprender e encarar novos desafios",
+        "Comunicativo",
+        "Organizado"
+    ],
+    "hardSkills": [
+        "PHP, Laravel",
+        "JavaScript, NodeJS, ReactJS, React Native",
+        "SQLServer, PostgreSQL, MySQL",
+        "Git, NPM, Composer, UML",
+        "Kanban, Scrum"
+    ],
+    "projects": [
+        {
+            "name": "CentralBras",
+            "description": "Techs: Laravel. \nSite baseado no Mercado Livre (em desenvolvimento).",
+            "url": "https://www.github.com/Eduardo0725/CentralBras"
+        },
+        {
+            "name": "Portfólio",
+            "description": "Techs: PHP. \nProjeto feito para mostrar informações sobre mim e os meus trabalhos.",
+            "url": "https://www.github.com/Eduardo0725/portfolio"
+        },
+        {
+            "name": "Happy",
+            "description": "Techs: Typescript, NodeJS, ReactJS, React Native. \nProjeto feito para facilitar visitas aos orfanatos próximos a você.  Feito na Next Level Week #3.",
+            "url": "https://www.github.com/Eduardo0725/Happy"
+        },
+        {
+            "name": "Proffy",
+            "description": "Techs: Typescript, NodeJS, ReactJS, React Native. \nProjeto feito para conectar professores a alunos. Feito na Next Level Week #2.",
+            "url": "https://www.github.com/Eduardo0725/Proffy"
+        },
+        {
+            "name": "be-the-hero",
+            "description": "Techs: JavaScript, NodeJS, ReactJS, React Native. \nProjeto feito para facilitar doações de pessoas interessadas em ajudar ONGS. Feito na Semana OmniStack 11º Edição.",
+            "url": "https://www.github.com/Eduardo0725/be-the-hero"
+        }
+    ],
+    "courses": [
+        {
+            "name": "Bootcamp Desenvolvedor Back-End PHP",
+            "description": "Nesse curso foram aprendidas formulários com condicionais, sessões, orientação a objetos, conhexão com banco de dados, frameworks (Laravel e Symfony) e dentre outros. Feito na Digital Innovation One.",
+            "certified": "https://digitalinnovation.one/certificate/E7EBFF02"
+        },
+        {
+            "name": "Bootcamp Desenvolvedor Front-End ReactJS",
+            "description": "Nesse curso foram aprendidas conceitos básicos, como JSX, componentes, estados, redux e dentre outros. Feito na Digital Innovation One.",
+            "certified": "https://digitalinnovation.one/certificate/4832A8E0"
+        },
+        {
+            "name": "Semana OmniStack 11º Edição",
+            "description": "Nesse curso de uma semana foi feito um projeto para facilitar doações de pessoas interessadas em ajudar ONGS. Foram aprendidos conceitos básicos de NodeJS, ReactJS e React Native. Feito na RocketSeat.",
+            "certified": "https://drive.google.com/file/d/14gj4s3_Ar6D4w9WIyZboqNahgcE5muqD/view"
+        }
+    ],
+    "formations": [
+        {
+            "name": "Ensino Médio",
+            "description": "Reverendo Irineu Monteiro De Pinho. Concluído em 2019.",
+            "certified": null
+        },
+        {
+            "name": "Técnico em Administração",
+            "description": "ETEC Da Zona Leste. MAR/2018 - JUL/2019 (3 módulos/6 meses cada).",
+            "certified": null
+        },
+        {
+            "name": "Técnico em Desenvolvimento de Sistemas",
+            "description": "ETEC Da Zona Leste. AGO/2019 - JUL/2020 (2 módulos/6 meses cada). Obs: remanescente.",
+            "certified": null
+        }
+    ]
+}

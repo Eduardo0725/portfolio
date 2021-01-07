@@ -1,0 +1,290 @@
+:root {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    --color-primary: #454E5C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 100%;
+    padding: 20px;
+
+    border-bottom: 1px solid #ccc;
+
+    font-size: 1.6rem;
+
+    color: var(--color-primary);
+}
+
+h2 {
+    width: 100%;
+    padding: 20px 0 10px;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: var(--color-primary);
+}
+
+p {
+    white-space: pre-line;
+}
+
+a, 
+p {
+    display: block;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.link {
+    width: max-content;
+    margin-top: 5px;
+    padding: 10px;
+
+    border-radius: 5px;
+    
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    color: #FFF;
+    background-color: var(--color-primary);
+
+    transition: 0.2s;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+
+    background-color: #F5F5F5;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: sticky;
+    top: 20px;
+    float: left;
+
+    width: 100%;
+    max-width: min-content;
+    height: max-content;
+
+    background-color: var(--color-primary);
+}
+
+aside img {
+    width: 100%;
+    height: 100%;
+    max-height: 310px;
+    object-fit: cover;
+}
+
+aside .info {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 10px;
+
+    padding: 20px;
+}
+
+aside .info p,
+aside .info a {
+    margin: auto 0;
+    font-size: 1.4rem;
+}
+
+aside .info p:nth-of-type(2n - 1) {
+    font-weight: 700;
+}
+
+aside .info p {
+    color: #FFF;
+}
+
+aside .info a {
+    color: #71A0FC;
+}
+
+aside > div {
+    width: 100%;
+}
+
+aside .downloadCV:hover {
+    background-color: #FFF;
+    color: var(--color-primary);
+}
+
+aside .downloadCV {
+    max-width: 140px;
+    margin: auto;
+    padding: 15px 30px;
+
+    border: 2px solid #FFF;
+    border-radius: 5px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    background-color: transparent;
+    color: #FFF;
+
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+aside .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-width: 200px;
+    margin: 15px auto;
+}
+
+aside .social .fab {
+    width: max-content;
+    height: max-content;
+
+    font-size: 2.8rem;
+    color: #FFF;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+aside .social .linkedin:hover {
+    color: #0A66C2;
+}
+
+aside .social .whatsapp:hover {
+    color: #25CB63;
+}
+
+main {
+    width: 100%;
+    margin-left: 20px;
+}
+
+main nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+    background-color: #FFF;
+}
+
+main nav a {
+    flex: 1;
+    padding: 15px;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    background-color: transparent;
+    color: var(--color-primary);
+
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s;
+}
+
+main nav a:hover,
+main nav a.selected {
+    background-color: var(--color-primary);
+    color: #FFF;
+}
+
+main article {
+    padding-bottom: 20px;
+    background-color: #FFF;
+}
+
+@media only screen and (max-width: 775px) {
+    main nav {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    aside {
+        position: static;
+        float: none;
+        max-width: none;
+    }
+
+    aside > div {
+        display: flex;
+    }
+
+    aside > div:last-of-type {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    aside img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    main {
+        margin: 20px 0 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    aside > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    aside img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    aside .info p,
+    aside .info a {
+        font-size: 1.3rem;
+    }
+
+    aside .info {
+        padding: 20px 10px;
+    }
+}
